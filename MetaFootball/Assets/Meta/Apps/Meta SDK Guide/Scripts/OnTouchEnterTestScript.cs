@@ -13,7 +13,7 @@ namespace Meta.Apps.MetaSDKGuide
 
     public class OnTouchEnterTestScript : MonoBehaviour
 	{
-		public void OnTouchEnter()
+		virtual public void OnTouchEnter()
 		{
 			GetComponent<Renderer>().material.color = Color.red;
 //			Debug.Log("OnTouchEnter");
@@ -26,7 +26,7 @@ namespace Meta.Apps.MetaSDKGuide
 		{
 			GetComponent<Renderer>().material.color = Color.cyan;
 		}
-		public void OnTouchExit()
+		virtual public void OnTouchExit()
 		{
 			GetComponent<Renderer>().material.color = Color.blue;
 		}
