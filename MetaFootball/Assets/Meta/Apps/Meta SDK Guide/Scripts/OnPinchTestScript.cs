@@ -15,8 +15,7 @@ namespace Meta.Apps.MetaSDKGuide
 		public void OnPinch()
 		{
 			GetComponent<Renderer>().material.color = Color.red;
-            
-        }
+		}
 		public void OnPinchHold()
 		{
 			GetComponent<Renderer>().material.color = Color.green;
